@@ -1,0 +1,36 @@
+*** Creating Trace Output File '.\Output\F1_F103.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\output\main.o"'
+### List of Objects: adding '".\output\rtx_config.o"'
+### List of Objects: adding '".\output\startup_stm32f10x_md.o"'
+### List of Objects: adding '".\output\misc.o"'
+### List of Objects: adding '".\output\stm32f10x_crc.o"'
+### List of Objects: adding '".\output\stm32f10x_dbgmcu.o"'
+### List of Objects: adding '".\output\stm32f10x_dma.o"'
+### List of Objects: adding '".\output\stm32f10x_exti.o"'
+### List of Objects: adding '".\output\stm32f10x_gpio.o"'
+### List of Objects: adding '".\output\stm32f10x_rcc.o"'
+### List of Objects: adding '".\output\stm32f10x_tim.o"'
+### List of Objects: adding '".\output\stm32f10x_usart.o"'
+### List of Objects: adding '".\output\stm32f10x_adc.o"'
+### List of Objects: adding '".\output\system_stm32f10x.o"'
+### List of Objects: adding '".\output\tim_init.o"'
+### List of Objects: adding '".\output\usart_init.o"'
+### List of Objects: adding '".\output\gpio_init.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\output\main.o" ".\output\rtx_config.o" ".\output\startup_stm32f10x_md.o" ".\output\misc.o" ".\output\stm32f10x_crc.o" ".\output\stm32f10x_dbgmcu.o" ".\output\stm32f10x_dma.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_adc.o" ".\output\system_stm32f10x.o" ".\output\tim_init.o" ".\output\usart_init.o" ".\output\gpio_init.o" 
+e:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter ".\Output\F1_F103.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\F1_F103.map" -o .\Output\F1_F103.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Output\F1_F103.axf'
+### ADS-LD Command File: '.\Output\F1_F103.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Output\F1_F103.lnp', Handle=0x00000308
+### Writing '.lnp' file
+### ADS-LD Command file '.\Output\F1_F103.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,5 @@
+--cpu Cortex-M3 ".\output\main.o" ".\output\rtx_config.o" ".\output\startup_stm32f10x_md.o" ".\output\misc.o" ".\output\stm32f10x_crc.o" ".\output\stm32f10x_dbgmcu.o" ".\output\stm32f10x_dma.o" ".\output\stm32f10x_exti.o" ".\output\stm32f10x_gpio.o" ".\output\stm32f10x_rcc.o" ".\output\stm32f10x_tim.o" ".\output\stm32f10x_usart.o" ".\output\stm32f10x_adc.o" ".\output\system_stm32f10x.o" ".\output\tim_init.o" ".\output\usart_init.o" ".\output\gpio_init.o" 
+e:\Keil\ARM\RV31\LIB\RTX_CM3.LIB --library_type=microlib --strict --scatter ".\Output\F1_F103.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Listing\F1_F103.map" -o .\Output\F1_F103.axf
